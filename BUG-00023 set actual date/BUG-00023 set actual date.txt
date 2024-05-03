@@ -1,0 +1,41 @@
+VSULib MS Schedule Set Actual Date [Function]: Set Actual Date not working
+
+[Summary]
+  When accessing calendar modal and when a month or year is clicked, the calendar days keep on reproducing and choosing the day doesn't apply any changes.
+
+[Precondition]
+ Any user must be logged in
+
+[Steps to reproduce]
+ 1. Click Calendar Icon.
+ 2. Click Actual.
+ 3. Choose Month, Year, and Day.
+ 4. Add Remarks.
+ 5. Click Save or Finish Maintenance.
+
+[Actual results]
+ The proposed date isn't set.
+
+[Expected results]
+ The proposed date and remarks are saved.
+
+[Additional information]
+ See attached logs and screenshot...
+
+[Is this Breakage?]
+ No, new implementation
+ 
+[Severity: How does this problem impact the customer/user?]
+ 8. Severe, cannot set proposed schedule for maintenance.
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 8. Often, user will require this feature if a maintenance is required.
+
+[Repeatability: Is this problem easily reproducible?]
+ 2. 20% Reproducible
+
+[Impacted Test Cases]
+ SCH-0004
+
+[Impact Sizing (in days)]
+ Less than a day

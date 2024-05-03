@@ -1,0 +1,40 @@
+VSULib MS Schedule Remove Maintenance [Function]: Remove Maintenance not working
+
+[Summary]
+  The equipment isn't removed from the scheduled list.
+
+[Precondition]
+ Actual date is already set.
+
+[Steps to reproduce]
+ 1. Click Calendar Icon.
+ 2. Add Remarks.
+ 3. Click Finish Maintenance.
+ 
+
+[Actual results]
+ The equipment isn't removed from the scheduled list.
+
+[Expected results]
+ The equipment is removed from scheduled list.
+
+[Additional information]
+ See attached logs and screenshot...
+
+[Is this Breakage?]
+ No, new implementation
+ 
+[Severity: How does this problem impact the customer/user?]
+ 8. Severe, user will assume it is still scheduled for maintenance.
+
+[Likelihood: How often will a customer/user use this feature/function?]
+ 8. Often, user will require this feature if the maintenance for the equipment is finsihed.
+
+[Repeatability: Is this problem easily reproducible?]
+ 2. 20% Reproducible
+
+[Impacted Test Cases]
+ SCH-0001, SCH-0002, SCH-0003
+
+[Impact Sizing (in days)]
+ 2 Days
