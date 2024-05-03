@@ -1,2 +1,2 @@
 # DefectMgt
-Defect management repository.
+VSULib MS Defect management repository.
